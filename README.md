@@ -1,0 +1,1 @@
+# Mini Guide Malin — gabarit
