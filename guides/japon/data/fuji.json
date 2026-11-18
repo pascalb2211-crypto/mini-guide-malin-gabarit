@@ -1,0 +1,202 @@
+{
+ "name": "Fuji et Hakone",
+ "emoji": "🗻",
+ "checked": "novembre 2026",
+ "tagline": "Nature, onsen et vue sur le Fuji, en une ou deux journées.",
+ "essential": [
+  {
+   "i": "📅",
+   "t": "1 à 2 jours",
+   "d": "Une journée pour la boucle de Hakone, deux avec une nuit en onsen."
+  },
+  {
+   "i": "🚆",
+   "t": "Y aller",
+   "d": "Hakone est à environ 1 h 20 de Shinjuku en train. Le Fuji se visite depuis Kawaguchiko, environ 1 h 54 en train direct."
+  },
+  {
+   "i": "☁️",
+   "t": "La météo",
+   "d": "Le Fuji se montre surtout le matin, quand le ciel est dégagé. Regarde la météo la veille."
+  },
+  {
+   "i": "🧗",
+   "t": "Escalader le Fuji",
+   "d": "Possible seulement en été. En 2026, la saison allait du 1er juillet au 10 septembre sur la voie Yoshida. Les règles 2027 ne sont pas encore annoncées : vérifie le site officiel avant de planifier."
+  }
+ ],
+ "sites": [
+  {
+   "c": "🚠 La boucle de Hakone",
+   "items": [
+    {
+     "n": "Boucle de Hakone",
+     "p": "Pass Freepass 2 jours : 7 100 ¥ depuis Shinjuku",
+     "h": "Selon les transports",
+     "d": "Train de montagne, téléphérique, croisière sur le lac Ashi et bus, avec un seul pass.",
+     "tip": "Le Romancecar (train rapide) coûte un supplément de 1 200 ¥ en plus du pass."
+    },
+    {
+     "n": "Lac Ashi et Owakudani",
+     "p": "Compris dans le pass",
+     "h": "Variable",
+     "d": "Des sources chaudes volcaniques et des vues sur le Fuji quand il fait beau.",
+     "tip": "Vérifie l'état du téléphérique avant d'y aller : il peut fermer."
+    }
+   ]
+  },
+  {
+   "c": "♨️ Les onsen",
+   "items": [
+    {
+     "n": "Une nuit en onsen",
+     "p": "Selon l'hôtel",
+     "h": "Réserve tôt",
+     "d": "Un ryokan ou un hôtel avec bain thermal, plus beau en fin de journée.",
+     "tip": "Réserve 2 à 3 mois à l'avance, surtout en haute saison."
+    }
+   ]
+  },
+  {
+   "c": "🗻 Le Fuji",
+   "items": [
+    {
+     "n": "Vue sur le Fuji (Kawaguchiko)",
+     "p": "Train direct 4 200 ¥ environ depuis Shinjuku",
+     "h": "Meilleur le matin",
+     "d": "Les lacs au pied du Fuji et ses cartes postales.",
+     "tip": "Le train direct Fuji Excursion relie Shinjuku à Kawaguchiko en environ 1 h 54."
+    },
+    {
+     "n": "Ascension du Fuji",
+     "p": "Taxe de 4 000 ¥",
+     "h": "Saison d'été uniquement",
+     "d": "Réservation en ligne obligatoire et places limitées sur la voie Yoshida.",
+     "tip": "Sans réservation de refuge, l'entrée est fermée de 14 h à 3 h : prévois une nuit en refuge."
+    }
+   ]
+  }
+ ],
+ "days": {
+  "1": [
+   {
+    "t": "8 h",
+    "n": "Départ de Shinjuku",
+    "d": "Train vers Hakone-Yumoto."
+   },
+   {
+    "t": "10 h 30",
+    "n": "Train de montagne et téléphérique",
+    "d": "La boucle de Hakone."
+   },
+   {
+    "t": "13 h",
+    "n": "Déjeuner",
+    "d": "Dans la région du lac Ashi."
+   },
+   {
+    "t": "15 h",
+    "n": "Croisière sur le lac Ashi",
+    "d": "Avec la vue sur le Fuji si le ciel est dégagé."
+   },
+   {
+    "t": "18 h",
+    "n": "Retour à Tokyo",
+    "d": "Ou une nuit en onsen."
+   }
+  ],
+  "2": [
+   {
+    "t": "Matin",
+    "n": "Bain thermal",
+    "d": "Au petit matin, quand c'est calme."
+   },
+   {
+    "t": "10 h",
+    "n": "Musée en plein air",
+    "d": "Ou temps libre."
+   },
+   {
+    "t": "14 h",
+    "n": "Retour",
+    "d": "Vers Tokyo ou vers ta prochaine étape."
+   }
+  ]
+ },
+ "stay": [
+  {
+   "i": "♨️",
+   "t": "Hakone-Yumoto",
+   "d": "L'entrée de la région : pratique, avec des auberges et des bains."
+  },
+  {
+   "i": "🏔️",
+   "t": "Gora ou Sengokuhara",
+   "d": "Plus calme et plus près de la nature, parfois plus cher."
+  },
+  {
+   "i": "🗻",
+   "t": "Kawaguchiko",
+   "d": "Les vues sur le Fuji sont les meilleures depuis ce lac."
+  }
+ ],
+ "eat": [
+  {
+   "i": "🍜",
+   "t": "À la carte",
+   "d": "Nouilles soba et plats simples près des gares."
+  },
+  {
+   "i": "🥚",
+   "t": "Œufs noirs d'Owakudani",
+   "d": "Une spécialité bouillie dans les sources volcaniques."
+  },
+  {
+   "i": "🍱",
+   "t": "En ryokan",
+   "d": "Le dîner et le petit-déjeuner traditionnels sont souvent inclus."
+  }
+ ],
+ "move": [
+  "Le Hakone Freepass de 2 jours coûte 7 100 ¥ depuis Shinjuku, contre environ 9 200 ¥ avec les billets séparés.",
+  "Il ne couvre pas le Romancecar, qui coûte 1 200 ¥ en supplément.",
+  "Les prix des pass ont augmenté de 1 000 ¥ en octobre 2025."
+ ],
+ "tips": [
+  {
+   "i": "☁️",
+   "t": "Regarde la météo",
+   "d": "Les nuages cachent souvent le Fuji l'après-midi."
+  },
+  {
+   "i": "🧗",
+   "t": "Escalade",
+   "d": "Réservation obligatoire, taxe de 4 000 ¥ et entrée fermée de 14 h à 3 h sans refuge."
+  },
+  {
+   "i": "♨️",
+   "t": "Onsen",
+   "d": "Vérifie les règles sur les tatouages avant de réserver."
+  },
+  {
+   "i": "🎒",
+   "t": "Fais léger",
+   "d": "Laisse ta valise à Tokyo : un petit sac suffit."
+  }
+ ],
+ "book": [
+  [
+   "🏨 Hôtels (Booking)",
+   "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcity%2Fjp%2Fhakone.fr.html"
+  ],
+  [
+   "🎟️ Activités (Klook)",
+   "https://www.klook.com/fr/?aid=129660"
+  ],
+  [
+   "🏨 Hôtels (Agoda)",
+   "https://www.agoda.com/fr-fr/?cid=1972177"
+  ]
+ ],
+ "tax": false
+}

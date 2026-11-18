@@ -1,0 +1,514 @@
+{
+ "slug": "japon",
+ "name": "Mini Guide Malin · Japon",
+ "shortName": "Malin Japon",
+ "lang": "fr",
+ "pwPrefix": "JAPON",
+ "cacheName": "tm-mg-japon",
+ "version": 25,
+ "weather": "Tokyo:35.68,139.69;Kyoto:35.01,135.77;Osaka:34.69,135.50;Hiroshima:34.39,132.46;Hakone:35.23,139.11;Nara:34.69,135.80",
+ "weatherLabel": "au Japon",
+ "booking": {
+  "code": "jp",
+  "page": 31
+ },
+ "firstPage": 1,
+ "currency": {
+  "code": "JPY",
+  "symbol": "¥",
+  "name": "Yens",
+  "words": "yens?\\b",
+  "rateKey": "tm-jpy-rate",
+  "fallback": 175,
+  "min": 50,
+  "max": 500
+ },
+ "translateTo": "ja",
+ "phrasesLabel": "Phrasier japonais",
+ "mapLabel": "Carte du Japon",
+ "mapPage": 3,
+ "hasMap": true,
+ "toolsMenu": [
+  [
+   "📘 Fiches pratiques",
+   "fiches"
+  ],
+  [
+   "🆘 Urgences",
+   "f_urgence"
+  ],
+  [
+   "🚄 Simulateur JR Pass",
+   "jrpass"
+  ],
+  [
+   "🛍️ Détaxe : mode d’emploi",
+   "detaxe"
+  ],
+  [
+   "✈️ Vols depuis La Réunion",
+   "vols"
+  ],
+  [
+   "🏨 Taxes de séjour",
+   "taxes"
+  ]
+ ],
+ "fiches": [
+  [
+   "f_urgence",
+   "🆘",
+   "Urgences",
+   "Numéros, ambassade, perdu, santé"
+  ],
+  [
+   "city_tokyo",
+   "🗼",
+   "Guide de Tokyo",
+   "3 jours, réservations, métro"
+  ],
+  [
+   "city_osaka",
+   "🍢",
+   "Guide d’Osaka",
+   "Manger, marcher, passes"
+  ],
+  [
+   "city_fuji",
+   "🗻",
+   "Fuji et Hakone",
+   "Boucle, onsen, ascension"
+  ],
+  [
+   "city_nara",
+   "🦌",
+   "Guide de Nara",
+   "Cerfs, Todai-ji, demi-journée"
+  ],
+  [
+   "city_hiroshima",
+   "🕊️",
+   "Hiroshima et Miyajima",
+   "Mémoire, île sacrée, ferry"
+  ],
+  [
+   "trouve",
+   "🔎",
+   "Trouve mon vol",
+   "Budget, conseils et recherche pré-remplie"
+  ],
+  [
+   "city_reunion",
+   "🇷🇪",
+   "Départ de La Réunion",
+   "Vols, prix, bagages, escale, heure"
+  ],
+  [
+   "city_kyoto",
+   "🏯",
+   "Guide de Kyoto",
+   "Temples, itinéraires, bus : tout en un"
+  ],
+  [
+   "f_gares",
+   "🚉",
+   "Décodeur des gares",
+   "Lignes, quais, sorties, carte IC"
+  ],
+  [
+   "f_distrib",
+   "🥤",
+   "Distributeurs",
+   "Chaud ou froid, comment ça marche"
+  ],
+  [
+   "f_toilettes",
+   "🚽",
+   "Toilettes japonaises",
+   "Le tableau de commandes, touche par touche"
+  ],
+  [
+   "f_consigne",
+   "🧳",
+   "Consignes à bagages",
+   "Calcule le coût de tes valises"
+  ],
+  [
+   "f_onsen",
+   "♨️",
+   "Onsen adapté",
+   "Tatouages, règles, check-list"
+  ],
+  [
+   "f_manger",
+   "🍜",
+   "Manger comme un Japonais",
+   "Bons plans et mots à connaître"
+  ],
+  [
+   "f_secret",
+   "⛩️",
+   "Le Japon secret",
+   "Escapades loin des foules"
+  ],
+  [
+   "f_insolite",
+   "🎎",
+   "Expériences insolites",
+   "Ta liste à cocher"
+  ]
+ ],
+ "phrases": [
+  [
+   "Les Bases",
+   [
+    [
+     "Bonjour",
+     "こんにちは",
+     "Konnichiwa"
+    ],
+    [
+     "Bonsoir",
+     "こんばんは",
+     "Konbanwa"
+    ],
+    [
+     "Merci",
+     "ありがとうございます",
+     "Arigatō gozaimasu"
+    ],
+    [
+     "Excusez-moi / pardon",
+     "すみません",
+     "Sumimasen"
+    ],
+    [
+     "Oui / Non",
+     "はい / いいえ",
+     "Hai / Iie"
+    ],
+    [
+     "Je ne parle pas japonais",
+     "日本語は話せません",
+     "Nihongo wa hanasemasen"
+    ],
+    [
+     "Parlez-vous anglais ?",
+     "英語を話せますか？",
+     "Eigo o hanasemasu ka?"
+    ],
+    [
+     "Je ne comprends pas",
+     "わかりません",
+     "Wakarimasen"
+    ]
+   ]
+  ],
+  [
+   "Au Restaurant",
+   [
+    [
+     "Une table pour deux",
+     "二人です",
+     "Futari desu"
+    ],
+    [
+     "Le menu, s'il vous plaît",
+     "メニューをお願いします",
+     "Menyū o onegaishimasu"
+    ],
+    [
+     "Ceci, s'il vous plaît",
+     "これをお願いします",
+     "Kore o onegaishimasu"
+    ],
+    [
+     "De l'eau, s'il vous plaît",
+     "お水をお願いします",
+     "Omizu o onegaishimasu"
+    ],
+    [
+     "Je ne mange pas de viande",
+     "肉は食べられません",
+     "Niku wa taberaremasen"
+    ],
+    [
+     "Je suis allergique à…",
+     "…アレルギーがあります",
+     "… arerugī ga arimasu"
+    ],
+    [
+     "C'est délicieux",
+     "おいしいです",
+     "Oishii desu"
+    ],
+    [
+     "L'addition, s'il vous plaît",
+     "お会計をお願いします",
+     "Okaikei o onegaishimasu"
+    ]
+   ]
+  ],
+  [
+   "Transports",
+   [
+    [
+     "Où est la gare ?",
+     "駅はどこですか？",
+     "Eki wa doko desu ka?"
+    ],
+    [
+     "Où sont les toilettes ?",
+     "トイレはどこですか？",
+     "Toire wa doko desu ka?"
+    ],
+    [
+     "Un billet pour Kyoto",
+     "京都までの切符をお願いします",
+     "Kyōto made no kippu o onegaishimasu"
+    ],
+    [
+     "Quel quai pour… ?",
+     "…は何番線ですか？",
+     "… wa nan-bansen desu ka?"
+    ],
+    [
+     "Ce train va à… ?",
+     "この電車は…に行きますか？",
+     "Kono densha wa … ni ikimasu ka?"
+    ],
+    [
+     "À cette adresse, s'il vous plaît (taxi)",
+     "この住所までお願いします",
+     "Kono jūsho made onegaishimasu"
+    ]
+   ]
+  ],
+  [
+   "À L'Hôtel",
+   [
+    [
+     "J'ai une réservation",
+     "予約しています",
+     "Yoyaku shite imasu"
+    ],
+    [
+     "Puis-je laisser mes valises ?",
+     "荷物を預かってもらえますか？",
+     "Nimotsu o azukatte moraemasu ka?"
+    ],
+    [
+     "Quel est le mot de passe du wifi ?",
+     "Wi-Fiのパスワードは何ですか？",
+     "Wi-Fi no pasuwādo wa nan desu ka?"
+    ]
+   ]
+  ],
+  [
+   "Dans Un Magasin",
+   [
+    [
+     "Combien ça coûte ?",
+     "いくらですか？",
+     "Ikura desu ka?"
+    ],
+    [
+     "Puis-je payer par carte ?",
+     "カードで払えますか？",
+     "Kādo de haraemasu ka?"
+    ],
+    [
+     "Détaxe, s'il vous plaît",
+     "免税をお願いします",
+     "Menzei o onegaishimasu"
+    ],
+    [
+     "Je regarde seulement",
+     "見ているだけです",
+     "Mite iru dake desu"
+    ]
+   ]
+  ],
+  [
+   "Urgences",
+   [
+    [
+     "À l'aide !",
+     "助けてください",
+     "Tasukete kudasai"
+    ],
+    [
+     "Appelez une ambulance",
+     "救急車を呼んでください",
+     "Kyūkyūsha o yonde kudasai"
+    ],
+    [
+     "J'ai besoin d'un médecin",
+     "医者が必要です",
+     "Isha ga hitsuyō desu"
+    ],
+    [
+     "J'ai perdu mon passeport",
+     "パスポートをなくしました",
+     "Pasupōto o nakushimashita"
+    ],
+    [
+     "Où est le poste de police (kōban) ?",
+     "交番はどこですか？",
+     "Kōban wa doko desu ka?"
+    ]
+   ]
+  ]
+ ],
+ "pages": [
+  {
+   "title": "Couverture",
+   "alt": "Mini Guide Malin Japon - Couverture"
+  },
+  {
+   "title": "Utiliser le guide",
+   "alt": "Japon Malin - Utiliser le guide"
+  },
+  {
+   "title": "Le Japon en un coup d'œil",
+   "alt": "Japon Malin - Le Japon en un coup d’œil",
+   "map": {
+    "arg": "false",
+    "label": "🗺️ Carte",
+    "hot": "left:2.5%;top:20.5%;width:15%;height:8.5%",
+    "aria": "Ouvrir la carte du Japon"
+   }
+  },
+  {
+   "title": "Quand partir",
+   "alt": "Japon Malin - Quand partir"
+  },
+  {
+   "title": "Budget : 3 niveaux au choix",
+   "alt": "Japon Malin - Budget : 3 niveaux au choix"
+  },
+  {
+   "title": "Combien ça coûte vraiment",
+   "alt": "Japon Malin - Combien ça coûte vraiment"
+  },
+  {
+   "title": "Vols depuis la France et La Réunion",
+   "alt": "Japon Malin - Vols depuis la France et La Réunion"
+  },
+  {
+   "title": "Spécial La Réunion",
+   "alt": "Japon Malin - Spécial La Réunion"
+  },
+  {
+   "title": "Formalités et argent",
+   "alt": "Japon Malin - Formalités et argent"
+  },
+  {
+   "title": "Internet et eSIM",
+   "alt": "Japon Malin - Internet et eSIM"
+  },
+  {
+   "title": "Se déplacer",
+   "alt": "Japon Malin - Se déplacer"
+  },
+  {
+   "title": "JR Pass : utile ou pas ?",
+   "alt": "Japon Malin - JR Pass : utile ou pas ?"
+  },
+  {
+   "title": "Valises : les envoyer d'hôtel en hôtel",
+   "alt": "Japon Malin - Valises : les envoyer d’hôtel en hôtel"
+  },
+  {
+   "title": "Se débrouiller sans japonais",
+   "alt": "Japon Malin - Se débrouiller sans japonais"
+  },
+  {
+   "title": "Dormir pas cher",
+   "alt": "Japon Malin - Dormir pas cher"
+  },
+  {
+   "title": "Manger pour peu",
+   "alt": "Japon Malin - Manger pour peu"
+  },
+  {
+   "title": "Politesse et onsen",
+   "alt": "Japon Malin - Politesse et onsen"
+  },
+  {
+   "title": "Réservations à anticiper",
+   "alt": "Japon Malin - Réservations à anticiper"
+  },
+  {
+   "title": "Séismes, typhons et urgences",
+   "alt": "Japon Malin - Séismes, typhons et urgences"
+  },
+  {
+   "title": "Tokyo (1/2)",
+   "alt": "Japon Malin - Tokyo (1/2)"
+  },
+  {
+   "title": "Tokyo (2/2)",
+   "alt": "Japon Malin - Tokyo (2/2)"
+  },
+  {
+   "title": "Fuji et Hakone",
+   "alt": "Japon Malin - Fuji et Hakone"
+  },
+  {
+   "title": "Kyoto (1/2)",
+   "alt": "Japon Malin - Kyoto (1/2)"
+  },
+  {
+   "title": "Kyoto (2/2)",
+   "alt": "Japon Malin - Kyoto (2/2)"
+  },
+  {
+   "title": "Nara, Osaka, Hiroshima",
+   "alt": "Japon Malin - Nara, Osaka, Hiroshima"
+  },
+  {
+   "title": "Un jour de pluie",
+   "alt": "Japon Malin - Un jour de pluie"
+  },
+  {
+   "title": "Shopping et détaxe",
+   "alt": "Japon Malin - Shopping et détaxe"
+  },
+  {
+   "title": "Itinéraire 10 jours",
+   "alt": "Japon Malin - Itinéraire 10 jours",
+   "map": {
+    "arg": "28",
+    "label": "🗺️ Carte du trajet"
+   }
+  },
+  {
+   "title": "Itinéraire 15 jours",
+   "alt": "Japon Malin - Itinéraire 15 jours",
+   "map": {
+    "arg": "29",
+    "label": "🗺️ Carte du trajet"
+   }
+  },
+  {
+   "title": "Erreurs à éviter et checklist",
+   "alt": "Japon Malin - Erreurs à éviter et checklist"
+  },
+  {
+   "title": "Centre de réservation",
+   "alt": "Japon Malin - Centre de réservation"
+  },
+  {
+   "title": "Merci",
+   "alt": "Japon Malin - Merci",
+   "nextLabel": "Découvrir Thai Malin →"
+  },
+  {
+   "title": "L'écosystème Thai Malin",
+   "alt": "Écosystème Thaï Malin",
+   "css": "  .page{container-type:inline-size}\n  .soon-txt{position:absolute;left:75.6%;top:51.2%;width:22.2%;height:7.6%;background:#fdecd2;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;color:#2b1a12;font-weight:800;font-size:2.7cqw;line-height:1.25;padding:0 1%}\n  .soon-pill{position:absolute;left:78.5%;top:33%;transform:rotate(-5deg);background:linear-gradient(135deg,#d35400,#f0955a);color:#fff;font-weight:800;letter-spacing:.06em;font-size:2.6cqw;padding:.7cqw 2.6cqw;border-radius:50px;box-shadow:0 .8cqw 2cqw rgba(0,0,0,.35);border:.35cqw solid #fff}",
+   "html": "  <div class=\"soon-txt\">Bientôt disponible sur Google Play et l’App Store</div>\n  <div class=\"soon-pill\">🚧 BIENTÔT</div>"
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "name": "Osaka",
+ "emoji": "🍢",
+ "checked": "novembre 2026",
+ "tagline": "La capitale de la cuisine : manger, marcher et s'amuser.",
+ "essential": [
+  {
+   "i": "📅",
+   "t": "2 à 3 jours",
+   "d": "2 jours pour la ville, 3 si tu ajoutes Universal Studios ou Nara."
+  },
+  {
+   "i": "🚄",
+   "t": "Y arriver",
+   "d": "Environ 15 minutes en Shinkansen depuis Kyoto, environ 2 h 30 depuis Tokyo."
+  },
+  {
+   "i": "🍜",
+   "t": "Le plus",
+   "d": "Takoyaki, okonomiyaki, kushikatsu : Osaka se mange dans la rue."
+  },
+  {
+   "i": "🌙",
+   "t": "Le soir",
+   "d": "Dotonbori est plus beau de nuit, avec les néons et le canal."
+  }
+ ],
+ "sites": [
+  {
+   "c": "🏯 Centre : le château",
+   "items": [
+    {
+     "n": "Château d'Osaka",
+     "p": "Parc gratuit, tour 1 200 ¥",
+     "h": "Parc ouvert, tour jusqu'à 17 h environ",
+     "d": "Le château, ses douves et son grand parc.",
+     "tip": "Le parc est gratuit : tu peux ne pas monter dans la tour."
+    }
+   ]
+  },
+  {
+   "c": "🍢 Namba et Dotonbori",
+   "items": [
+    {
+     "n": "Dotonbori",
+     "p": "Gratuit",
+     "h": "Surtout le soir",
+     "d": "La rue aux néons, avec le célèbre panneau Glico.",
+     "tip": "Mange tôt, les files s'allongent après 19 h."
+    },
+    {
+     "n": "Marché Kuromon",
+     "p": "Gratuit (tu paies ce que tu manges)",
+     "h": "Le matin et le déjeuner",
+     "d": "La « cuisine d'Osaka » : fruits de mer, brochettes et snacks.",
+     "tip": "Mange au stand : on évite de marcher en mangeant."
+    }
+   ]
+  },
+  {
+   "c": "🗼 Shinsekai",
+   "items": [
+    {
+     "n": "Shinsekai et tour Tsutenkaku",
+     "p": "Quartier gratuit, tour 1 500 ¥",
+     "h": "Fin d'après-midi et soir",
+     "d": "Un quartier rétro, célèbre pour le kushikatsu.",
+     "tip": "Les restaurants de kushikatsu ont la règle « pas de double trempage » dans la sauce."
+    }
+   ]
+  },
+  {
+   "c": "🌆 Umeda",
+   "items": [
+    {
+     "n": "Umeda Sky Building",
+     "p": "2 000 ¥",
+     "h": "Jusqu'à 22 h 30 environ",
+     "d": "Une terrasse panoramique en plein air.",
+     "tip": "Il est gratuit avant 15 h avec l'Osaka Amazing Pass."
+    }
+   ]
+  },
+  {
+   "c": "🎢 À part : Universal Studios",
+   "items": [
+    {
+     "n": "Universal Studios Japan",
+     "p": "À partir d'environ 8 900 ¥, selon la date",
+     "h": "Une journée entière",
+     "d": "Le parc d'attractions, dont le Super Nintendo World.",
+     "tip": "Les prix changent selon la date : réserve tôt et évite les week-ends."
+    }
+   ]
+  }
+ ],
+ "days": {
+  "1": [
+   {
+    "t": "9 h",
+    "n": "Château d'Osaka",
+    "d": "Le parc et la tour."
+   },
+   {
+    "t": "12 h",
+    "n": "Marché Kuromon",
+    "d": "Déjeuner au marché."
+   },
+   {
+    "t": "15 h",
+    "n": "Namba",
+    "d": "Boutiques et galeries."
+   },
+   {
+    "t": "18 h",
+    "n": "Dotonbori",
+    "d": "Dîner et néons."
+   }
+  ],
+  "2": [
+   {
+    "t": "10 h",
+    "n": "Umeda",
+    "d": "Boutiques puis terrasse du Sky Building avant 15 h."
+   },
+   {
+    "t": "14 h",
+    "n": "Shinsekai",
+    "d": "Tour Tsutenkaku."
+   },
+   {
+    "t": "18 h",
+    "n": "Kushikatsu",
+    "d": "Brochettes frites, sans double trempage."
+   }
+  ]
+ },
+ "stay": [
+  {
+   "i": "🍜",
+   "t": "Namba",
+   "d": "À côté de Dotonbori et des restaurants : le plus animé."
+  },
+  {
+   "i": "🏢",
+   "t": "Umeda (Kita)",
+   "d": "Près de la gare Osaka, bon pour les trains."
+  },
+  {
+   "i": "🚉",
+   "t": "Shin-Osaka",
+   "d": "Pratique pour le Shinkansen, moins de charme."
+  }
+ ],
+ "eat": [
+  {
+   "i": "🐙",
+   "t": "Takoyaki",
+   "d": "Des boulettes de poulpe grillées, la star d'Osaka."
+  },
+  {
+   "i": "🥞",
+   "t": "Okonomiyaki",
+   "d": "Une crêpe salée garnie, cuite sur plaque."
+  },
+  {
+   "i": "🍢",
+   "t": "Kushikatsu",
+   "d": "Des brochettes panées et frites à Shinsekai."
+  },
+  {
+   "i": "🙅",
+   "t": "Règle d'or",
+   "d": "Pas de double trempage dans la sauce commune."
+  }
+ ],
+ "calc": {
+  "ride": 240,
+  "pass": 820,
+  "passName": "Pass métro 1 jour (Enjoy Eco Card)"
+ },
+ "move": [
+  "Le pass métro 1 jour (Enjoy Eco Card) coûte 820 ¥.",
+  "L'Osaka Amazing Pass 1 jour coûte environ 3 500 ¥ (relevé en mars 2026, d'autres sources donnent 3 800 ¥) : il vaut le coup seulement si tu visites 3 sites payants, comme le château, Umeda Sky Building et la croisière.",
+  "Si tu ne fais que Dotonbori, Kuromon et Shinsekai, le pass métro suffit."
+ ],
+ "tips": [
+  {
+   "i": "💴",
+   "t": "Le bon pass",
+   "d": "Beaucoup de gratuit à Osaka : compare avant d'acheter l'Amazing Pass."
+  },
+  {
+   "i": "🎢",
+   "t": "Universal",
+   "d": "Prévois une journée entière et réserve ton billet à la date."
+  },
+  {
+   "i": "🌃",
+   "t": "Dotonbori",
+   "d": "Plus beau de nuit, mais très fréquenté."
+  },
+  {
+   "i": "🚄",
+   "t": "Excursions",
+   "d": "Nara est à environ 40 minutes, Kyoto à environ 30 minutes."
+  }
+ ],
+ "book": [
+  [
+   "🏨 Hôtels (Booking)",
+   "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcity%2Fjp%2Fosaka.fr.html"
+  ],
+  [
+   "🎟️ Activités (Klook)",
+   "https://www.klook.com/fr/?aid=129660"
+  ],
+  [
+   "🏨 Hôtels (Agoda)",
+   "https://www.agoda.com/fr-fr/?cid=1972177"
+  ]
+ ],
+ "tax": true
+}

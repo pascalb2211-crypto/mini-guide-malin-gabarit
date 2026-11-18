@@ -1,0 +1,173 @@
+{
+ "name": "Nara",
+ "emoji": "🦌",
+ "checked": "novembre 2026",
+ "tagline": "Les cerfs, le Grand Bouddha et des temples anciens, en une demi-journée.",
+ "essential": [
+  {
+   "i": "📅",
+   "t": "Une demi-journée",
+   "d": "3 à 4 heures suffisent pour le parc, Todai-ji et Kasuga Taisha. Compte une journée avec un rythme plus calme."
+  },
+  {
+   "i": "🚆",
+   "t": "Y aller",
+   "d": "Environ 40 minutes depuis Osaka-Namba et 50 minutes depuis Kyoto en train Kintetsu."
+  },
+  {
+   "i": "🦌",
+   "t": "Les cerfs",
+   "d": "Environ 1 200 cerfs vivent en liberté. Ce sont des animaux sauvages."
+  },
+  {
+   "i": "⏰",
+   "t": "Le secret",
+   "d": "Arrive tôt : Todai-ji ouvre vers 7 h 30 et se remplit en fin de matinée."
+  }
+ ],
+ "sites": [
+  {
+   "c": "🦌 Le parc de Nara",
+   "items": [
+    {
+     "n": "Parc de Nara et cerfs",
+     "p": "Gratuit",
+     "h": "Accessible 24 h/24",
+     "d": "Un grand parc où les cerfs viennent saluer en échange de biscuits.",
+     "tip": "Nourris-les seulement avec les biscuits du parc (shika senbei, environ 200 ¥) : ni pain, ni légumes."
+    }
+   ]
+  },
+  {
+   "c": "🏛️ Les temples",
+   "items": [
+    {
+     "n": "Todai-ji",
+     "p": "800 ¥",
+     "h": "Environ 7 h 30 à 17 h 30",
+     "d": "Le Grand Bouddha en bronze, dans l'un des plus grands bâtiments en bois du monde.",
+     "tip": "Le prix est passé de 600 à 800 ¥ en avril 2024. Arrive à l'ouverture."
+    },
+    {
+     "n": "Kasuga Taisha",
+     "p": "Accès libre, zone intérieure 500 ¥",
+     "h": "Variable",
+     "d": "Un sanctuaire bordé de milliers de lanternes.",
+     "tip": "Marche depuis Todai-ji à travers la forêt, environ 15 minutes."
+    },
+    {
+     "n": "Kofuku-ji",
+     "p": "Variable",
+     "h": "Variable",
+     "d": "Un temple avec une pagode à cinq étages, près de la gare.",
+     "tip": "Pratique pour une halte à l'arrivée."
+    }
+   ]
+  }
+ ],
+ "days": {
+  "1": [
+   {
+    "t": "8 h 30",
+    "n": "Arrivée à Nara",
+    "d": "Kintetsu-Nara ou JR Nara."
+   },
+   {
+    "t": "9 h",
+    "n": "Todai-ji",
+    "d": "Le Grand Bouddha, avant les groupes."
+   },
+   {
+    "t": "11 h",
+    "n": "Parc et cerfs",
+    "d": "Biscuits et photos."
+   },
+   {
+    "t": "13 h",
+    "n": "Kasuga Taisha",
+    "d": "Les lanternes."
+   },
+   {
+    "t": "15 h",
+    "n": "Naramachi ou retour",
+    "d": "Vieux quartier et mochis."
+   }
+  ]
+ },
+ "stay": [
+  {
+   "i": "🚆",
+   "t": "Pas besoin de dormir sur place",
+   "d": "Nara se visite très bien en excursion depuis Kyoto ou Osaka."
+  },
+  {
+   "i": "🌙",
+   "t": "Une nuit sur place",
+   "d": "Pour voir le parc calme, tôt le matin ou le soir."
+  }
+ ],
+ "eat": [
+  {
+   "i": "🍡",
+   "t": "Mochi",
+   "d": "Des mochis frais, à goûter dans le vieux quartier."
+  },
+  {
+   "i": "🍵",
+   "t": "Thé et pâtisseries",
+   "d": "Pour une pause après la marche."
+  },
+  {
+   "i": "🍱",
+   "t": "Bentos",
+   "d": "À prendre en gare pour pique-niquer dans le parc."
+  }
+ ],
+ "calc": {
+  "ride": 220,
+  "pass": 500,
+  "passName": "Pass bus 1 jour de Nara"
+ },
+ "move": [
+  "Le bus en boucle de Nara coûte 220 ¥ par trajet, ou 500 ¥ pour le pass journée.",
+  "Todai-ji et le parc se visitent aussi à pied depuis la gare, environ 20 minutes.",
+  "Depuis Osaka-Namba, le train Kintetsu coûte environ 680 ¥, et environ 760 ¥ depuis Kyoto."
+ ],
+ "tips": [
+  {
+   "i": "🦌",
+   "t": "Les cerfs mordent",
+   "d": "Garde les cartes et les sacs en papier à l'abri : ils peuvent les attraper."
+  },
+  {
+   "i": "🍪",
+   "t": "Biscuits uniquement",
+   "d": "N'offre que les shika senbei du parc, le reste les rend malades."
+  },
+  {
+   "i": "📏",
+   "t": "Budget de la journée",
+   "d": "Compte 5 000 à 6 500 ¥ par personne, entrées et repas inclus, sans JR Pass."
+  },
+  {
+   "i": "🍂",
+   "t": "Saison",
+   "d": "Cerisiers début avril, feuilles rouges fin novembre."
+  }
+ ],
+ "book": [
+  [
+   "🏨 Hôtels (Booking)",
+   "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcity%2Fjp%2Fnara.fr.html"
+  ],
+  [
+   "🎟️ Activités (Klook)",
+   "https://www.klook.com/fr/?aid=129660"
+  ],
+  [
+   "🏨 Hôtels (Agoda)",
+   "https://www.agoda.com/fr-fr/?cid=1972177"
+  ]
+ ],
+ "tax": false
+}

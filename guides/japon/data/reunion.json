@@ -1,0 +1,239 @@
+{
+ "name": "Depuis La Réunion",
+ "emoji": "🇷🇪",
+ "checked": "novembre 2026",
+ "tagline": "Tout ce qu'il faut savoir pour partir de Saint-Denis vers le Japon.",
+ "tabs": [
+  {
+   "id": "vols",
+   "n": "Les vols",
+   "b": [
+    {
+     "k": "cards",
+     "items": [
+      {
+       "i": "🛫",
+       "t": "Option 1 : via Bangkok",
+       "d": "Air Austral relie La Réunion à Bangkok en direct. Un horaire courant : départ à 20 h, arrivée à 6 h 55 ; retour à 9 h, arrivée à 13 h 35. Le vol dure environ 8 h. Puis un vol Bangkok – Tokyo ou Osaka d'environ 6 h 30."
+      },
+      {
+       "i": "🗼",
+       "t": "Option 2 : via Paris",
+       "d": "La Réunion – Paris, puis Paris – Tokyo ou Osaka. Plus long, mais plus de départs et de compagnies."
+      },
+      {
+       "i": "⏱️",
+       "t": "Au total",
+       "d": "Compte 18 à 21 heures avec une escale, selon la durée de l'attente (relevé sur les comparateurs)."
+      },
+      {
+       "i": "📆",
+       "t": "Les jours de vol",
+       "d": "Air Austral propose jusqu'à 3 vols par semaine vers Bangkok, parfois moins selon la saison. Vérifie les jours exacts à la réservation."
+      },
+      {
+       "i": "💡",
+       "t": "Astuce Malin",
+       "d": "Prévois 2 jours à Bangkok au retour : voir l'onglet Escale Bangkok."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prix",
+   "n": "Prix et dates",
+   "b": [
+    {
+     "k": "cards",
+     "items": [
+      {
+       "i": "💶",
+       "t": "Prix repérés",
+       "d": "Réunion – Bangkok en direct : environ 660 à 790 € l'aller-retour hors vacances, avec des pics bien au-dessus (la moyenne des 3 derniers mois sur un comparateur dépasse 1 300 €). Réunion – Tokyo avec escale : à partir d'environ 1 340 € sur un comparateur."
+      },
+      {
+       "i": "🗓️",
+       "t": "Quand réserver",
+       "d": "Les comparateurs conseillent de réserver très tôt : 5 à 8 mois à l'avance pour Bangkok, jusqu'à 9 mois pour Tokyo. Réserver 6 semaines avant est présenté comme le pire moment."
+      },
+      {
+       "i": "📉",
+       "t": "Mois moins chers",
+       "d": "Mars ressort comme le mois le moins cher vers Tokyo. Évite les vacances scolaires."
+      },
+      {
+       "i": "⚠️",
+       "t": "Indicatif",
+       "d": "Les prix changent chaque jour. Utilise-les comme repère, pas comme promesse."
+      }
+     ]
+    },
+    {
+     "k": "sum",
+     "title": "Calcule ton budget vol",
+     "fields": [
+      [
+       "Réunion ⇄ Bangkok (€)",
+       "650"
+      ],
+      [
+       "Bangkok ⇄ Tokyo ou Osaka (€)",
+       "450"
+      ],
+      [
+       "Nuit d'hôtel à Bangkok si besoin (€)",
+       "0"
+      ]
+     ]
+    },
+    {
+     "k": "btn",
+     "label": "🔎 Trouve mon vol pour mon budget",
+     "tool": "trouve"
+    }
+   ]
+  },
+  {
+   "id": "bag",
+   "n": "Bagages",
+   "b": [
+    {
+     "k": "cards",
+     "items": [
+      {
+       "i": "🧳",
+       "t": "Tarif Loisirs",
+       "d": "Sur Air Austral long-courrier, le tarif Loisirs (économique) inclut 1 bagage en soute de 23 kg."
+      },
+      {
+       "i": "🚫",
+       "t": "Tarif Light",
+       "d": "Aucun bagage en soute : seulement la cabine. Vérifie avant de payer."
+      },
+      {
+       "i": "🎒",
+       "t": "En cabine",
+       "d": "Dimensions maximales indiquées : 55 × 45 × 20 cm. Compte environ 12 kg en économique, accessoire compris."
+      },
+      {
+       "i": "🔗",
+       "t": "Billets séparés",
+       "d": "Si tu achètes Réunion – Bangkok et Bangkok – Japon séparément, ton bagage n'est pas enregistré jusqu'au bout : récupère-le à Bangkok, puis ré-enregistre-le."
+      },
+      {
+       "i": "⚖️",
+       "t": "Franchise",
+       "d": "Les règles de bagages ont changé plusieurs fois : confirme celle de ton tarif au moment de réserver."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "escale",
+   "n": "Escale Bangkok",
+   "b": [
+    {
+     "k": "cards",
+     "items": [
+      {
+       "i": "💡",
+       "t": "Le conseil Malin : 2 jours à Bangkok au retour",
+       "d": "Au retour du Japon, ne rentre pas d'un trait : reste 2 jours à Bangkok. Tu coupes le voyage, tu récupères du décalage et tu profites d'une ville où l'on mange très bien pour peu. Le vol direct pour La Réunion part souvent en début de matinée (9 h dans un horaire courant) : dors près de l'aéroport la veille. Après le Japon, tu verras Bangkok avec un budget bien plus léger."
+      },
+      {
+       "i": "⏳",
+       "t": "Combien de temps prévoir ?",
+       "d": "Si les billets sont séparés, garde une grande marge : 4 à 5 heures minimum, pour récupérer le bagage et passer les contrôles. Avec un seul billet, la compagnie gère la correspondance."
+      },
+      {
+       "i": "🚪",
+       "t": "Sortir ou rester ?",
+       "d": "Si tu restes en zone de transit, tu n'entres pas en Thaïlande. Si tu sors pour une nuit ou plus, vérifie les conditions d'entrée à jour pour les Français."
+      },
+      {
+       "i": "🌃",
+       "t": "L'escale malin",
+       "d": "Une nuit ou deux à Bangkok, c'est un bon moyen de couper le voyage. Le mini-guide « Du Lagon au Siam » t'y aide."
+      }
+     ]
+    },
+    {
+     "k": "check",
+     "key": "escale",
+     "label": "à vérifier",
+     "items": [
+      "Je regarde si mes deux billets sont <b>sur le même dossier</b>",
+      "Je laisse au moins <b>4 à 5 h</b> d'attente si les billets sont séparés",
+      "Je vérifie <b>l'aéroport d'arrivée</b> à Bangkok (Suvarnabhumi pour Air Austral)",
+      "Je note le <b>terminal et l'heure</b> de mon vol suivant",
+      "Je réserve <b>2 nuits à Bangkok au retour</b> (et une nuit près de l'aéroport avant le vol du matin)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heure",
+   "n": "Décalage horaire",
+   "b": [
+    {
+     "k": "cards",
+     "items": [
+      {
+       "i": "🕐",
+       "t": "Le décalage",
+       "d": "Le Japon a 5 heures d'avance sur La Réunion, toute l'année. Bangkok a 3 heures d'avance. Il n'y a pas de changement d'heure d'été."
+      }
+     ]
+    },
+    {
+     "k": "clock"
+    }
+   ]
+  },
+  {
+   "id": "avant",
+   "n": "Avant de partir",
+   "b": [
+    {
+     "k": "check",
+     "key": "avant",
+     "label": "prêt",
+     "items": [
+      "<b>Passeport</b> valide pour tout le séjour",
+      "<b>Visit Japan Web</b> rempli avant le départ (gratuit, officiel)",
+      "<b>eSIM</b> installée avant le vol",
+      "<b>Assurance voyage</b> souscrite",
+      "<b>Réservations</b> à anticiper faites (page 18)",
+      "<b>Carte bancaire sans frais</b> et un peu de liquide",
+      "<b>Copie</b> du passeport et des billets dans ton téléphone"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "res",
+   "n": "Réserver",
+   "b": [
+    {
+     "k": "links"
+    }
+   ]
+  }
+ ],
+ "book": [
+  [
+   "✈️ Comparer les vols (Trip.com)",
+   "https://fr.trip.com/?Allianceid=9852508&SID=327644129&trip_sub3=D19106369&locale=fr-fr"
+  ],
+  [
+   "🛫 Air Austral (vols directs Bangkok)",
+   "https://www.air-austral.com/"
+  ],
+  [
+   "🏨 Hôtels (Booking)",
+   "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcountry%2Fjp.fr.html"
+  ]
+ ]
+}

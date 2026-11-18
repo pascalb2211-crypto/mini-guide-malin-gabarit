@@ -1,0 +1,267 @@
+{
+ "name": "Tokyo",
+ "emoji": "🗼",
+ "checked": "novembre 2026",
+ "tagline": "La plus grande ville du monde, en 3 jours bien rythmés.",
+ "essential": [
+  {
+   "i": "📅",
+   "t": "3 à 5 jours",
+   "d": "3 jours pour les grands classiques, 5 si tu veux ajouter une excursion (Fuji, Hakone, Nikkō ou Kamakura)."
+  },
+  {
+   "i": "🚇",
+   "t": "Se déplacer",
+   "d": "Une carte IC (Suica ou Pasmo) suffit pour presque tout. Le métro est rapide et facile."
+  },
+  {
+   "i": "🎟️",
+   "t": "À réserver avant",
+   "d": "teamLab Planets, Shibuya Sky (surtout au coucher du soleil) et le musée Ghibli (billets en vente environ un mois avant)."
+  },
+  {
+   "i": "⏰",
+   "t": "Le secret",
+   "d": "Senso-ji et Meiji Jingu sont gratuits et plus calmes avant 9 h."
+  }
+ ],
+ "sites": [
+  {
+   "c": "⛩️ Asakusa et l'est",
+   "items": [
+    {
+     "n": "Senso-ji",
+     "p": "Gratuit",
+     "h": "Les terrains restent ouverts 24 h",
+     "d": "Le plus ancien temple de Tokyo, avec la rue commerçante Nakamise.",
+     "tip": "Va-y avant 8 h ou après la tombée de la nuit pour éviter les groupes."
+    },
+    {
+     "n": "Tokyo Skytree",
+     "p": "À partir de 1 800 ¥",
+     "h": "Selon la saison",
+     "d": "La tour la plus haute du Japon, avec vue sur toute la ville.",
+     "tip": "Prends une seule vue d'en haut : Skytree ou Shibuya Sky, pas les deux."
+    }
+   ]
+  },
+  {
+   "c": "🌿 Harajuku et Shibuya",
+   "items": [
+    {
+     "n": "Meiji Jingu",
+     "p": "Gratuit (jardin intérieur 500 ¥)",
+     "h": "Plus calme avant 9 h",
+     "d": "Un sanctuaire au milieu d'une grande forêt, juste à côté de Harajuku.",
+     "tip": "Marche sur le chemin de gravier, c'est déjà un voyage."
+    },
+    {
+     "n": "Carrefour de Shibuya",
+     "p": "Gratuit",
+     "h": "Toujours accessible",
+     "d": "Le carrefour piéton le plus célèbre du monde.",
+     "tip": "L'animation est maximale en fin de journée."
+    },
+    {
+     "n": "Shibuya Sky",
+     "p": "2 700 ¥ avant 15 h, 3 400 ¥ à partir de 15 h (billet en ligne)",
+     "h": "Environ 10 h à 22 h 30",
+     "d": "Une terrasse à 229 m, très belle au coucher du soleil.",
+     "tip": "Les réservations ouvrent environ 4 semaines avant. Les créneaux du coucher du soleil partent en premier."
+    }
+   ]
+  },
+  {
+   "c": "🏙️ Shinjuku",
+   "items": [
+    {
+     "n": "Observatoire de la mairie",
+     "p": "Gratuit",
+     "h": "Variable",
+     "d": "Une vue gratuite sur la ville depuis les gratte-ciel.",
+     "tip": "Idéal si tu veux une vue sans payer."
+    },
+    {
+     "n": "Shinjuku Gyoen",
+     "p": "500 ¥",
+     "h": "Fermé certains jours",
+     "d": "Un grand jardin au calme, avec des cerisiers au printemps.",
+     "tip": "Parfait pour une pause après la foule."
+    }
+   ]
+  },
+  {
+   "c": "🎨 Toyosu et Tsukiji",
+   "items": [
+    {
+     "n": "Marché extérieur de Tsukiji",
+     "p": "Gratuit (tu paies ce que tu manges)",
+     "h": "Le matin surtout",
+     "d": "Des stands de poisson, d'omelette japonaise et de street food.",
+     "tip": "Viens le matin et goûte sur place."
+    },
+    {
+     "n": "teamLab Planets",
+     "p": "À partir de 3 800 ¥",
+     "h": "Créneau de 30 minutes",
+     "d": "Un musée d'art numérique où l'on marche pieds nus.",
+     "tip": "Réserve ton créneau : l'entrée se fait à l'heure choisie."
+    }
+   ]
+  }
+ ],
+ "days": {
+  "1": [
+   {
+    "t": "8 h",
+    "n": "Senso-ji et Asakusa",
+    "d": "Avant la foule."
+   },
+   {
+    "t": "11 h",
+    "n": "Parc d'Ueno ou musées",
+    "d": "Au choix : nature ou culture."
+   },
+   {
+    "t": "14 h",
+    "n": "Déjeuner à Asakusa",
+    "d": "Nouilles ou tempura."
+   },
+   {
+    "t": "17 h",
+    "n": "Skytree ou balade au bord de la rivière",
+    "d": "Pour finir à l'heure bleue."
+   }
+  ],
+  "2": [
+   {
+    "t": "9 h",
+    "n": "Meiji Jingu",
+    "d": "La forêt et le sanctuaire."
+   },
+   {
+    "t": "11 h",
+    "n": "Harajuku",
+    "d": "Les rues de la mode et les crêpes."
+   },
+   {
+    "t": "14 h",
+    "n": "Shibuya",
+    "d": "Carrefour, boutiques, déjeuner."
+   },
+   {
+    "t": "17 h",
+    "n": "Shibuya Sky",
+    "d": "Pour le coucher du soleil, créneau réservé."
+   }
+  ],
+  "3": [
+   {
+    "t": "8 h 30",
+    "n": "Marché de Tsukiji",
+    "d": "Petit-déjeuner sur le pouce."
+   },
+   {
+    "t": "11 h",
+    "n": "teamLab Planets",
+    "d": "Créneau réservé."
+   },
+   {
+    "t": "15 h",
+    "n": "Temps libre",
+    "d": "Shopping à Ginza ou Akihabara."
+   },
+   {
+    "t": "19 h",
+    "n": "Shinjuku la nuit",
+    "d": "Ruelles d'izakaya et néons."
+   }
+  ]
+ },
+ "stay": [
+  {
+   "i": "🏙️",
+   "t": "Shinjuku",
+   "d": "Le grand carrefour de transports : très pratique pour Hakone et Fuji. Animé et bruyant."
+  },
+  {
+   "i": "🚇",
+   "t": "Asakusa et Ueno",
+   "d": "Plus calme et souvent moins cher, avec un côté traditionnel."
+  },
+  {
+   "i": "🛍️",
+   "t": "Shibuya",
+   "d": "Vivant jour et nuit, près des restaurants et des boutiques."
+  }
+ ],
+ "eat": [
+  {
+   "i": "🍜",
+   "t": "Au quotidien",
+   "d": "Ramen, soba et restaurants à tickets : bon et rapide."
+  },
+  {
+   "i": "🍣",
+   "t": "À Tsukiji",
+   "d": "Poisson frais, omelette et brochettes à manger sur place."
+  },
+  {
+   "i": "🍻",
+   "t": "Izakaya",
+   "d": "Des petits plats à partager le soir, dans les ruelles de Shinjuku ou Ueno."
+  },
+  {
+   "i": "🏪",
+   "t": "Konbini",
+   "d": "7-Eleven, Lawson, FamilyMart : bon et bon marché pour le petit-déjeuner."
+  }
+ ],
+ "calc": {
+  "ride": 250,
+  "pass": 1000,
+  "passName": "Tokyo Subway Ticket 24 h"
+ },
+ "move": [
+  "Le Tokyo Subway Ticket (réservé aux visiteurs) coûte 1 000 ¥ pour 24 h, 1 500 ¥ pour 48 h et 2 000 ¥ pour 72 h. Il couvre le métro Tokyo Metro et Toei, mais pas les lignes JR comme la Yamanote.",
+  "Le pass 24 h devient intéressant à partir d'environ six trajets de métro.",
+  "Pour une journée de visite classique, la carte IC suffit souvent."
+ ],
+ "tips": [
+  {
+   "i": "🕗",
+   "t": "Réserve les 3 incontournables",
+   "d": "teamLab, Shibuya Sky et Ghibli partent vite en haute saison."
+  },
+  {
+   "i": "🚆",
+   "t": "Évite l'heure de pointe",
+   "d": "Les trains sont bondés de 7 h 30 à 9 h 30 et de 17 h à 19 h."
+  },
+  {
+   "i": "💰",
+   "t": "Entrées gratuites",
+   "d": "Senso-ji, Meiji Jingu, Shibuya, Ueno, Tsukiji et la mairie sont gratuits."
+  },
+  {
+   "i": "🌆",
+   "t": "Un quartier par demi-journée",
+   "d": "Tokyo est grand : ne traverse pas la ville dix fois."
+  }
+ ],
+ "book": [
+  [
+   "🏨 Hôtels (Booking)",
+   "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcity%2Fjp%2Ftokyo.fr.html"
+  ],
+  [
+   "🎟️ Activités (Klook)",
+   "https://www.klook.com/fr/?aid=129660"
+  ],
+  [
+   "🏨 Hôtels (Agoda)",
+   "https://www.agoda.com/fr-fr/?cid=1972177"
+  ]
+ ],
+ "tax": true
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "modele",
+ "name": "Mini Guide Malin · Destination",
+ "shortName": "Malin Destination",
+ "lang": "fr",
+ "pwPrefix": "DESTINATION",
+ "cacheName": "tm-mg-modele",
+ "version": 1,
+ "weather": "",
+ "weatherLabel": "",
+ "booking": { "code": "", "page": 0 },
+ "firstPage": 1,
+ "currency": null,
+ "translateTo": "en",
+ "phrasesLabel": "Phrasier",
+ "mapLabel": "Carte",
+ "mapPage": 1,
+ "hasMap": false,
+ "toolsMenu": [["📘 Fiches pratiques", "fiches"]],
+ "fiches": [["city_exemple", "📍", "Guide d'exemple", "Fiche de ville : à copier et adapter"]],
+ "phrases": [],
+ "pages": [
+  { "title": "Couverture", "alt": "Couverture" },
+  { "title": "Sommaire", "alt": "Sommaire" },
+  { "title": "Fin", "alt": "Fin" }
+ ]
+}

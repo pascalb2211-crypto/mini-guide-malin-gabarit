@@ -1,0 +1,29 @@
+{
+ "name":"Kyoto","emoji":"🏯","checked":"novembre 2026",
+ "tagline":"Temples, ruelles et saveurs : l'ancienne capitale en 3 jours.",
+ "essential":[
+  {"i":"📅","t":"3 jours","d":"C'est le bon rythme pour une première fois. 2 jours suffisent pour les grands classiques."},
+  {"i":"🌸","t":"Quand y aller","d":"Printemps (mars à mai) et automne (octobre à novembre) sont les plus beaux, mais aussi les plus fréquentés. L'hiver est plus calme et moins cher."},
+  {"i":"🚄","t":"Y arriver","d":"Environ 2 h 15 en Shinkansen depuis Tokyo, environ 15 à 30 minutes depuis Osaka."},
+  {"i":"⏰","t":"Le secret","d":"Les lieux les plus connus se visitent tôt le matin. Après 10 h, la foule arrive."}
+ ],
+ "sites":[
+  {"c":"🦊 Sud : Fushimi Inari","items":[{"n":"Fushimi Inari","p":"Gratuit","h":"Ouvert 24 h/24","d":"Des milliers de portiques rouges sur la montagne. La boucle complète prend 2 à 3 h.","tip":"Va-y avant 8 h et monte plus haut que la foule : le calme commence après les premiers portiques."}]},
+  {"c":"⛩️ Est : Higashiyama et Gion","items":[{"n":"Kiyomizu-dera","p":"500 ¥ environ","h":"Ouvre tôt le matin","d":"Le grand temple en bois sur la colline, avec vue sur la ville. Pas de réservation pour l'entrée classique.","tip":"Descends ensuite par les ruelles de Ninenzaka et Sannenzaka."},{"n":"Gion le soir","p":"Gratuit","h":"Vers 17 h-18 h","d":"Le quartier des maisons de thé. Reste dans les rues publiques.","tip":"Les ruelles privées sont interdites depuis 2024 et les geiko ne se prennent pas en photo de force."}]},
+  {"c":"🎋 Ouest : Arashiyama","items":[{"n":"Bambouseraie d'Arashiyama","p":"Gratuit","h":"Accessible tout le temps","d":"Le célèbre chemin de bambous, suivi du pont Togetsukyo et du quartier au bord de la rivière.","tip":"Arrive avant 8 h pour éviter le plus gros de la foule."}]},
+  {"c":"🌟 Nord : le Pavillon d'Or","items":[{"n":"Kinkaku-ji","p":"500 ¥ environ","h":"9 h à 17 h","d":"Le pavillon recouvert de feuilles d'or, qui se reflète dans l'étang. Compte environ 45 minutes.","tip":"Rejoins-le en bus depuis le centre (lignes 101 ou 205)."}]},
+  {"c":"🍢 Centre : Nishiki et Pontocho","items":[{"n":"Marché Nishiki","p":"Gratuit","h":"Variable selon les boutiques","d":"Le « garde-manger de Kyoto » : environ 100 stands dans une rue couverte.","tip":"On ne mange pas en marchant : mange devant le stand où tu as acheté."},{"n":"Ruelle de Pontocho","p":"Gratuit","h":"Le soir","d":"Une ruelle étroite pleine de restaurants, juste à côté de la rivière.","tip":"Mange tôt (vers 18 h) pour éviter le coup de feu du dîner."}]}
+ ],
+ "days":{
+  "1":[{"t":"7 h 30","n":"Fushimi Inari","d":"Monte avant la foule."},{"t":"10 h 30","n":"Kiyomizu-dera","d":"Puis Ninenzaka et Sannenzaka."},{"t":"13 h","n":"Déjeuner à Higashiyama","d":"Nouilles ou tofu local."},{"t":"17 h","n":"Gion","d":"Promenade dans les rues publiques."}],
+  "2":[{"t":"7 h 30","n":"Arashiyama","d":"Bambouseraie puis pont Togetsukyo."},{"t":"11 h 30","n":"Déjeuner à Arashiyama","d":"Plusieurs petits restaurants."},{"t":"14 h","n":"Kinkaku-ji","d":"Le Pavillon d'Or en bus."},{"t":"17 h","n":"Retour au centre","d":"Repos, puis dîner."}],
+  "3":[{"t":"9 h","n":"Marché Nishiki","d":"Goûte, puis mange sur place."},{"t":"11 h","n":"Château de Nijo ou quartier central","d":"Au choix selon ton énergie."},{"t":"15 h","n":"Temps libre","d":"Shopping, thé, ou un atelier."},{"t":"18 h","n":"Pontocho","d":"Dîner dans la ruelle au bord de l'eau."}]
+ },
+ "stay":[{"i":"🚉","t":"Près de la gare de Kyoto","d":"Pratique pour les trains et les excursions (Nara, Osaka, Fushimi Inari). Moins de charme, mais le plus simple."},{"i":"⛩️","t":"Higashiyama et Gion","d":"Ambiance traditionnelle et temples à pied, mais plus cher et souvent plus calme après 20 h."},{"i":"🛍️","t":"Kawaramachi et centre","d":"Restaurants, boutiques et vie nocturne à pied. Bon compromis pour les premiers séjours."}],
+ "eat":[{"i":"🍜","t":"Au quotidien","d":"Nouilles, bentos et petits restaurants de quartier restent le plus économique."},{"i":"🍲","t":"À goûter","d":"Le tofu mijoté (yudofu) et les petits plats de Kyoto (obanzai). Des menus yudofu tournent autour de 3 000 à 6 000 ¥."},{"i":"🍱","t":"Le grand repas (kaiseki)","d":"Un déjeuner kaiseki abordable se situe vers 5 000 à 15 000 ¥ ; les grandes tables coûtent beaucoup plus et se réservent longtemps à l'avance."},{"i":"🙅","t":"Règle d'or","d":"À Nishiki, mange devant le stand, pas dans la rue."}],
+ "calc":{"ride":230,"pass":1100,"passName":"Pass Métro + Bus 1 jour"},
+ "move":["Le bus de ville coûte 230 ¥ dans le centre, quelle que soit la distance.","L'ancien pass bus à 700 ¥ n'existe plus. Il est remplacé par le pass métro + bus à 1 100 ¥.","Les bus de ville sont souvent bondés : pars tôt et garde tes valises à la consigne.","Annoncé : la ville prévoit des tarifs de bus plus élevés pour les non-résidents (environ 350 à 400 ¥) dans l'année budgétaire 2027. La date n'est pas fixée : vérifie avant ton départ."],
+ "tips":[{"i":"📸","t":"Photos à Gion","d":"Ne bloque pas les geiko et reste hors des ruelles privées : des amendes existent."},{"i":"🕗","t":"Horaires","d":"La plupart des temples ouvrent vers 8 h 30 ou 9 h. Arrive à l'ouverture."},{"i":"🎟️","t":"Entrées","d":"Les prix des temples ont monté en 2024-2025. Prévois un petit budget d'entrées chaque jour."},{"i":"🚇","t":"Groupe tes visites","d":"Fais une zone par jour (est, ouest, nord) pour éviter les allers-retours."}],
+ "book":[["🏨 Hôtels à Kyoto (Booking)","https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcity%2Fjp%2Fkyoto.fr.html"],["🎟️ Activités à Kyoto (Klook)","https://www.klook.com/fr/?aid=129660"],["🏨 Hôtels à Kyoto (Agoda)","https://www.agoda.com/fr-fr/?cid=1972177"]],
+ "tax":true
+}

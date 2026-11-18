@@ -1,0 +1,226 @@
+{
+ "name": "Hiroshima et Miyajima",
+ "emoji": "🕊️",
+ "checked": "novembre 2026",
+ "tagline": "Un lieu de mémoire et une île sacrée, en deux jours.",
+ "essential": [
+  {
+   "i": "📅",
+   "t": "2 jours",
+   "d": "Un jour pour Hiroshima, un jour pour Miyajima. En un seul jour, c'est possible mais serré."
+  },
+  {
+   "i": "🚄",
+   "t": "Y arriver",
+   "d": "Environ 1 h 25 depuis Shin-Osaka en Shinkansen, environ 3 h 50 depuis Tokyo en Nozomi."
+  },
+  {
+   "i": "🕊️",
+   "t": "Un lieu de mémoire",
+   "d": "Prends le temps au musée de la paix : compte environ 2 heures."
+  },
+  {
+   "i": "⛩️",
+   "t": "Les marées",
+   "d": "Le portique de Miyajima paraît « flotter » à marée haute. Vérifie les horaires."
+  }
+ ],
+ "sites": [
+  {
+   "c": "🕊️ Hiroshima",
+   "items": [
+    {
+     "n": "Parc du Mémorial de la Paix et Dôme de Genbaku",
+     "p": "Gratuit",
+     "h": "Accessible en continu",
+     "d": "Le parc, le Dôme de la bombe atomique et le cénotaphe.",
+     "tip": "Va-y tôt le matin : c'est plus recueilli."
+    },
+    {
+     "n": "Musée du Mémorial de la Paix",
+     "p": "200 ¥",
+     "h": "Ouvre tôt, 7 h 30 à 8 h 30 selon la saison",
+     "d": "Le musée principal sur le bombardement.",
+     "tip": "Les réservations en ligne peuvent être demandées en haute saison. Fermé le 30-31 décembre et du 15 au 20 février 2027."
+    },
+    {
+     "n": "Château d'Hiroshima",
+     "p": "370 ¥",
+     "h": "Variable",
+     "d": "Reconstruit après la guerre, avec un petit musée.",
+     "tip": "Option si tu as du temps."
+    },
+    {
+     "n": "Jardin Shukkeien",
+     "p": "260 ¥",
+     "h": "Variable",
+     "d": "Un jardin traditionnel avec un étang.",
+     "tip": "Pour une pause calme."
+    }
+   ]
+  },
+  {
+   "c": "⛩️ Miyajima",
+   "items": [
+    {
+     "n": "Sanctuaire d'Itsukushima",
+     "p": "300 ¥",
+     "h": "Environ 6 h 30 à 18 h en été",
+     "d": "Le célèbre portique rouge dans la mer.",
+     "tip": "Le ferry coûte 200 ¥ plus 100 ¥ de taxe de visite, pour environ 10 minutes."
+    },
+    {
+     "n": "Mont Misen",
+     "p": "Téléphérique payant",
+     "h": "Variable",
+     "d": "Un point de vue sur la mer intérieure.",
+     "tip": "Prévois un peu plus de temps et vérifie les horaires."
+    }
+   ]
+  },
+  {
+   "c": "🍳 Manger",
+   "items": [
+    {
+     "n": "Okonomimura",
+     "p": "1 000 à 1 500 ¥ environ le plat",
+     "h": "Environ 11 h à 2 h",
+     "d": "Un immeuble entier de petits restaurants d'okonomiyaki.",
+     "tip": "Goûte la version d'Hiroshima, avec des nouilles."
+    }
+   ]
+  }
+ ],
+ "days": {
+  "1": [
+   {
+    "t": "8 h",
+    "n": "Parc de la Paix et Dôme",
+    "d": "Avant la foule."
+   },
+   {
+    "t": "9 h 30",
+    "n": "Musée de la Paix",
+    "d": "Compte environ 2 h."
+   },
+   {
+    "t": "13 h",
+    "n": "Okonomiyaki",
+    "d": "Déjeuner à Okonomimura."
+   },
+   {
+    "t": "15 h",
+    "n": "Château et Shukkeien",
+    "d": "Tramway Hiroden."
+   }
+  ],
+  "2": [
+   {
+    "t": "8 h",
+    "n": "Train et ferry vers Miyajima",
+    "d": "JR jusqu'à Miyajimaguchi, puis ferry."
+   },
+   {
+    "t": "9 h 30",
+    "n": "Sanctuaire d'Itsukushima",
+    "d": "Visite et portique."
+   },
+   {
+    "t": "12 h",
+    "n": "Déjeuner à Miyajima",
+    "d": "Spécialités de la région."
+   },
+   {
+    "t": "14 h",
+    "n": "Mont Misen ou balade",
+    "d": "Selon l'énergie et la météo."
+   },
+   {
+    "t": "17 h",
+    "n": "Retour à Hiroshima",
+    "d": "Ou continuation vers Osaka."
+   }
+  ]
+ },
+ "stay": [
+  {
+   "i": "🚉",
+   "t": "Près de la gare d'Hiroshima",
+   "d": "Pratique pour les trains et le tramway."
+  },
+  {
+   "i": "🛍️",
+   "t": "Hatchobori",
+   "d": "Quartier commerçant au centre, proche des restaurants."
+  },
+  {
+   "i": "⛩️",
+   "t": "Miyajima",
+   "d": "Une nuit sur l'île pour voir le sanctuaire au calme, plus cher."
+  }
+ ],
+ "eat": [
+  {
+   "i": "🥞",
+   "t": "Okonomiyaki d'Hiroshima",
+   "d": "Avec des nouilles et du chou, cuit sur plaque."
+  },
+  {
+   "i": "🦪",
+   "t": "Huîtres",
+   "d": "Une spécialité de la région, surtout en hiver."
+  },
+  {
+   "i": "🍰",
+   "t": "Momiji manju",
+   "d": "Gâteaux en forme de feuille d'érable, typiques de Miyajima."
+  }
+ ],
+ "calc": {
+  "ride": 240,
+  "pass": 700,
+  "passName": "Pass tramway Hiroden 1 jour"
+ },
+ "move": [
+  "Le tramway d'Hiroshima coûte 240 ¥ par trajet, le pass 1 jour 700 ¥.",
+  "Le ferry de Miyajima coûte 200 ¥, plus 100 ¥ de taxe de visite non remboursée par le JR Pass.",
+  "Le JR Pass couvre le ferry JR, mais pas la taxe de 100 ¥."
+ ],
+ "tips": [
+  {
+   "i": "🕊️",
+   "t": "Prends ton temps",
+   "d": "Le musée est émouvant : prévois du calme après la visite."
+  },
+  {
+   "i": "🌊",
+   "t": "Marées",
+   "d": "Le portique se voit mieux à marée haute."
+  },
+  {
+   "i": "🚄",
+   "t": "JR Pass",
+   "d": "Les Nozomi et Mizuho ne sont pas couverts : prends un Hikari ou un Sakura."
+  },
+  {
+   "i": "📆",
+   "t": "Fermetures",
+   "d": "Vérifie les jours de fermeture du musée avant de partir."
+  }
+ ],
+ "book": [
+  [
+   "🏨 Hôtels (Booking)",
+   "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcity%2Fjp%2Fhiroshima.fr.html"
+  ],
+  [
+   "🎟️ Activités (Klook)",
+   "https://www.klook.com/fr/?aid=129660"
+  ],
+  [
+   "🏨 Hôtels (Agoda)",
+   "https://www.agoda.com/fr-fr/?cid=1972177"
+  ]
+ ],
+ "tax": false
+}
