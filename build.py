@@ -63,7 +63,18 @@ def main():
     keys = ['slug','name','shortName','pwPrefix','currency','phrases','phrasesLabel','translateTo','mapLabel','mapPage','hasMap','toolsMenu','fiches','weatherLabel']
     mg = {k: cfg[k] for k in keys if k in cfg}
     mg['catalog'] = cat['guides']; mg['catalogUrl'] = cat.get('catalogUrl', '')
-    wr(os.path.join(out, 'config.js'), '/* Généré par build.py à partir de guides/%s/guide.json : ne pas modifier ici. */\nwindow.MG = %s;\n' % (slug, json.dumps(mg, ensure_ascii=False, separators=(',', ':'))))
+    # liens affiliés : liens-affilies.json (partenaires actifs, filtrés par pays du guide)
+    bk = cfg.get('booking', {}).get('code', '')
+    ap = os.path.join(ROOT, 'liens-affilies.json')
+    if os.path.exists(ap):
+        aff = []
+        for x in json.load(open(ap, encoding='utf-8')).get('partenaires', []):
+            if not x.get('actif') or not x.get('url'): continue
+            if x.get('pays') and bk not in x['pays']: continue
+            aff.append([x['emoji'] + ' ' + x['titre'], x['sous_titre'], x['url'].replace('{BK}', bk)])
+        mg['affiliates'] = aff
+        mg['affMap'] = {x['id']: x['url'].replace('{BK}', bk) for x in json.load(open(ap, encoding='utf-8')).get('partenaires', []) if x.get('actif') and x.get('url') and (not x.get('pays') or bk in x['pays'])}
+    wr(os.path.join(out, 'config.js'), '/* Généré par build.py à partir de guides/%s/guide.json et liens-affilies.json : ne pas modifier ici. */\nwindow.MG = %s;\nMG.aff = function(u){ if(typeof u !== "string" || u.indexOf("aff:") !== 0) return u; return (MG.affMap && MG.affMap[u.slice(4)]) || ""; };\n' % (slug, json.dumps(mg, ensure_ascii=False, separators=(',', ':'))))
     # pages
     head = rd(os.path.join(ROOT, 'engine', 'page-head.html'))
     toc = ';'.join('%d|%s' % (i + 1, p['title']) for i, p in enumerate(pages))

@@ -413,6 +413,7 @@
             ['📶 eSIM', 'Internet dès l’arrivée (Airalo)', 'https://airalo.pxf.io/PzWeQQ'],
             ['📶 eSIM illimitée', 'Holafly, code promo THAIMALIN', 'https://holafly.sjv.io/OYdRjN'],
             ['🛡️ Assurance voyage', 'SafetyWing', 'https://safetywing.com/nomad-insurance?referenceID=26576610&campaign=thai-malin&utm_campaign=thai-malin&utm_source=26576610&utm_medium=Ambassador']];
+          if(MG.affiliates && MG.affiliates.length) rows = MG.affiliates;   /* liste unique : liens-affilies.json (générée dans config.js) */
           var l = el('div', { 'class': 'list book' });
           rows.forEach(function(r){ l.appendChild(el('a', { href: r[2], target: '_blank', rel: 'noopener sponsored' }, '<b>' + r[0] + '</b><small>' + r[1] + '</small>')); });
           openSheet('Réserver mon voyage', l);
@@ -474,7 +475,7 @@
     zx.addEventListener('click', close); z.addEventListener('click', function(e){ if(e.target === z) close(); });
     img.addEventListener('click', function(e){
       var r = img.getBoundingClientRect(); var fx = (e.clientX - r.left) / r.width, fy = (e.clientY - r.top) / r.height;
-      var zone = zoneAt(n, fx * 1024, fy * 1536); zl.innerHTML = ''; if(zone && zone[4]){ for(var q = 0; q < zone[4].length; q++){ if(zone[4][q][1].indexOf('tool:') === 0 && window.MGTools){ MGTools.open(zone[4][q][1].slice(5)); return; } } } if(zone && zone[4]){ zone[4].forEach(function(l){ var a = document.createElement('a'); a.textContent = l[0]; if(l[1].indexOf('tool:') === 0){ a.href = '#'; (function(t){ a.addEventListener('click', function(ev){ ev.preventDefault(); if(window.MGTools) MGTools.open(t); }); })(l[1].slice(5)); } else { a.href = l[1]; a.target = '_blank'; a.rel = 'noopener'; } zl.appendChild(a); }); }
+      var zone = zoneAt(n, fx * 1024, fy * 1536); zl.innerHTML = ''; if(zone && zone[4]){ for(var q = 0; q < zone[4].length; q++){ if(zone[4][q][1].indexOf('tool:') === 0 && window.MGTools){ MGTools.open(zone[4][q][1].slice(5)); return; } } } if(zone && zone[4]){ zone[4].forEach(function(l){ if(l[1].indexOf('aff:') === 0 && !(window.MG && MG.aff && MG.aff(l[1]))) return; var a = document.createElement('a'); a.textContent = l[0]; if(l[1].indexOf('tool:') === 0){ a.href = '#'; (function(t){ a.addEventListener('click', function(ev){ ev.preventDefault(); if(window.MGTools) MGTools.open(t); }); })(l[1].slice(5)); } else { a.href = (window.MG && MG.aff) ? MG.aff(l[1]) : l[1]; a.target = '_blank'; a.rel = 'noopener sponsored'; } zl.appendChild(a); }); }
       zi.style.width = ''; zi.src = img.currentSrc || img.src; z.classList.add('open'); document.documentElement.style.overflow = 'hidden';
       function place(){
         var VW = z.clientWidth || innerWidth, VH = z.clientHeight || innerHeight;

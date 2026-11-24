@@ -48,10 +48,22 @@ Outils plus spéciaux (simulateurs, calculs) : fichier `guides/<guide>/guide.js`
 | Remplacer une image de page | `guides/<guide>/images/pageN.webp` (même nom) |
 | Ajouter une page | l'image + une ligne dans `pages` de `guide.json` |
 | Ajouter un guide dans la liste « D'autres guides » (tous les guides) | `catalogue.json` |
+| Ajouter / activer / retirer un partenaire affilié (**tous** les guides) | `liens-affilies.json` |
 | Améliorer un outil pour **tous** les guides | `engine/` |
 | Forcer la mise à jour sur les téléphones | augmenter `version` dans `guide.json` |
 
 Après chaque modification : `python3 build.py <guide> --out <dépôt du guide>`, puis publier ce dépôt (commit + push). Les téléphones récupèrent la nouvelle version à la prochaine ouverture avec internet.
+
+## Liens affiliés (un seul fichier pour tous les guides)
+
+`liens-affilies.json` liste tous les partenaires (Trip.com, Booking, Klook, Airalo, Holafly, SafetyWing, GoWabi, puis Hotels.com, Simbye, Viator, Bangkok Airways dès qu'ils t'acceptent).
+
+- **Activer un partenaire accepté** : colle son lien dans `url`, mets `"actif": true`. Tant qu'il est à `false` (ou sans lien), il n'apparaît nulle part.
+- `{BK}` dans un lien = code pays Booking du guide (`booking.code` dans `guide.json`). `"pays": ["th"]` réserve un partenaire à certains guides.
+- Le bouton **🧳 Réserver** de chaque guide lit cette liste.
+- Dans les textes d'un guide (`zones.json`, `data/<ville>.json` → `book`), écris `aff:<id>` au lieu du lien (ex. `["🏨 Hôtels", "aff:booking"]`) : le lien est repris du fichier, et masqué si le partenaire est inactif. Les liens écrits en dur continuent de marcher (guide Japon inchangé).
+- Après modification : `python3 build.py <guide> --out <dépôt du guide>`, publier, augmenter `version` dans `guide.json`.
+- Règles : mentionner l'affiliation (« liens partenaires, sans surcoût pour toi »), pas de publicité payante sur la marque Simbye, n'utiliser que les codes fournis par le partenaire.
 
 ## Mot de passe
 

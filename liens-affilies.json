@@ -1,0 +1,54 @@
+{
+  "_aide": "Liste UNIQUE des partenaires affiliés de tous les mini-guides. Pour activer un partenaire accepté : mettre \"actif\": true et coller son lien dans \"url\". Pour le retirer : \"actif\": false. {BK} est remplacé par le code pays Booking du guide (th, vn, la, kh, jp...). \"pays\" (facultatif) limite le partenaire à certains guides (code Booking). Après modification : python3 build.py <guide> --out <dépôt du guide>, publier, et augmenter \"version\" dans guide.json pour forcer la mise à jour sur les téléphones.",
+  "partenaires": [
+    {
+      "id": "trip", "actif": true, "emoji": "✈️", "titre": "Vols", "sous_titre": "Comparer et réserver sur Trip.com",
+      "url": "https://fr.trip.com/?Allianceid=9852508&SID=327644129&trip_sub3=D19106369&locale=fr-fr"
+    },
+    {
+      "id": "booking", "actif": true, "emoji": "🏨", "titre": "Hôtels", "sous_titre": "Hébergements sur Booking.com",
+      "url": "https://www.dpbolvw.net/click-101855269-12677526?url=https%3A%2F%2Fwww.booking.com%2Fcountry%2F{BK}.fr.html"
+    },
+    {
+      "id": "klook", "actif": true, "emoji": "🎟️", "titre": "Activités", "sous_titre": "Excursions et visites sur Klook",
+      "url": "https://www.klook.com/fr/?aid=129660"
+    },
+    {
+      "id": "airalo", "actif": true, "emoji": "📶", "titre": "eSIM", "sous_titre": "Internet dès l’arrivée (Airalo)",
+      "url": "https://airalo.pxf.io/PzWeQQ"
+    },
+    {
+      "id": "holafly", "actif": true, "emoji": "📶", "titre": "eSIM illimitée", "sous_titre": "Holafly, code promo THAIMALIN",
+      "url": "https://holafly.sjv.io/OYdRjN"
+    },
+    {
+      "id": "safetywing", "actif": true, "emoji": "🛡️", "titre": "Assurance voyage", "sous_titre": "SafetyWing",
+      "url": "https://safetywing.com/nomad-insurance?referenceID=26576610&campaign=thai-malin&utm_campaign=thai-malin&utm_source=26576610&utm_medium=Ambassador"
+    },
+    {
+      "id": "gowabi", "actif": true, "emoji": "💆", "titre": "Spa et massage", "sous_titre": "Réserver sur GoWabi",
+      "url": "https://app.gowabi.com/SoW2/vvec64aj", "pays": ["th"]
+    },
+
+    {
+      "_attente": "Candidature Hotels.com France déposée sur CJ le 24/11/2026 (révision manuelle). Activer quand acceptée.",
+      "id": "hotels-com-fr", "actif": false, "emoji": "🏨", "titre": "Hôtels (Hotels.com)", "sous_titre": "Comparer sur Hotels.com",
+      "url": ""
+    },
+    {
+      "_attente": "Invitation Simbye acceptée sur Awin le 24/11/2026 ; attendre la confirmation que les ventes en France sont commissionnées et le code lecteur. Ne pas faire de publicité payante sur la marque Simbye ; utiliser seulement les codes fournis par Simbye.",
+      "id": "simbye", "actif": false, "emoji": "📶", "titre": "eSIM (Simbye)", "sous_titre": "Forfaits data dans 190+ pays",
+      "url": ""
+    },
+    {
+      "_attente": "Candidature Viator à envoyer / en attente sur Awin (24/11/2026).",
+      "id": "viator", "actif": false, "emoji": "🎟️", "titre": "Visites (Viator)", "sous_titre": "Excursions et visites guidées",
+      "url": ""
+    },
+    {
+      "_attente": "Programme Bangkok Airways sur Involve Asia (en pause le 24/11/2026) ; compte Involve Asia en évaluation. Vols intérieurs Thaïlande.",
+      "id": "bangkok-airways", "actif": false, "emoji": "🛫", "titre": "Vols intérieurs (Bangkok Airways)", "sous_titre": "Bangkok Airways",
+      "url": "", "pays": ["th"]
+    }
+  ]
+}
